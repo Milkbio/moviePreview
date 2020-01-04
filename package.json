@@ -4,7 +4,7 @@
   "description": "预告片网站",
   "main": "index.js",
   "scripts": {
-    "koa": "node server/index.js",
+    "koa": "nodemon node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/Milkbio/moviePreview#readme",
   "devDependencies": {
     "koa": "^2.11.0",
-    "koa-logger": "^3.2.1"
+    "koa-logger": "^3.2.1",
+    "nodemon": "^2.0.2"
   },
   "dependencies": {}
 }
